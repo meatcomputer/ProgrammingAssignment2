@@ -33,3 +33,7 @@ cacheSolve <- function(x, ...) {
         x$setSolve(s)
         s       
 }
+
+## function to create square matrices for testing purposes
+
+rmatrix <- function(dim) matrix(rnorm(dim^2),dim, dim)
