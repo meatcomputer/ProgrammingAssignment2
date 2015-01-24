@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Create a list of functions then leverage said functions
+## to cache matrix inverses (solve)
 
 ## Creates a list which is used to cache the inverse of a matrix once computed
 
@@ -19,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Returns solve(x). 
+## Returns from cache if it has been previously computed.
 
 cacheSolve <- function(x, ...) {
         s <- x$getSolve()
